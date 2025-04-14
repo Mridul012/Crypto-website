@@ -1,0 +1,46 @@
+.users-trust-section {
+    position: absolute;             
+    top: 150px;                  
+    right: 90px;                 
+    left: 900px;
+    background-color: #0d0d0d;
+    /* color: #fff; */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    width: 290px;
+    text-align: center;
+    z-index: 99;               
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .counter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FCD535;              
+    /* color: #118c4f; */
+  }
+  
+  .label {
+    font-size: 2.5rem;
+    margin: 0.3rem 0;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .sub-label {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 940px) {
+    .users-trust-section {
+      position: static;
+      margin: 2rem auto;
+      width: 90%;
+      max-width: 320px;
+
+    }
+  }
+

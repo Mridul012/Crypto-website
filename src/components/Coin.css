@@ -1,0 +1,128 @@
+/* list and top */
+
+.green{
+    color: var(--primary);
+
+}
+
+.red{
+    color: red;
+}
+.coins{
+    width: 100%;
+    padding: 8rem 0;
+    background-color: var(--background);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+}
+
+.coins .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.coins .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.coins .left p {
+    margin: 1.5rem 0;
+}
+
+.coins .left .btn {
+    align-self: flex-start;
+}
+
+.coins .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.coins .right .card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 22px;
+    margin: .4rem;
+    width: 170px;
+    height: 170px;
+    border-radius: 24px;
+    border: 1px solid #d3d3d3;
+    box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px;
+    text-align: center;
+}
+
+
+
+/* .coins .right .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.coins .right .card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow:
+      0 0 12px rgba(17, 140, 79, 0.6),
+      0 0 24px rgba(17, 140, 79, 0.4),
+      0 0 36px rgba(17, 140, 79, 0.2);
+    border: 1px solid #118c4f;
+  } */
+
+.coins .right .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.coins .right .card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+      0 0 15px rgba(252, 213, 53, 0.6),
+      0 0 30px rgba(252, 213, 53, 0.4),
+      0 0 45px rgba(252, 213, 53, 0.25);
+    border: 1px solid #FCD535;
+  }
+  
+  
+  
+
+.coins .card .top {
+    display: flex;
+    flex-direction: column;
+}
+.coins .right img {
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+}
+
+.coins .icon {
+    font-size: 36px;
+    margin: auto;
+    padding-top: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.coins span {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 940px) {
+    .coins .container {
+        grid-template-columns: 1fr;
+    }
+
+    .coins .left .btn {
+        align-self: center;
+    }
+}
+
+
+@media screen and (max-width: 478px) {
+    .coins .container .right .card {
+        width: 100%;
+    }
+}
