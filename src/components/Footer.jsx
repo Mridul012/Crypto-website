@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css"
 import {FaFacebook, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
+import { FaHeart } from "react-icons/fa6";
 
 function Footer(){
     return (
@@ -64,6 +65,9 @@ function Footer(){
 
 
             </div>
+            <p className="copyright">
+        Made with <FaHeart style={{ color: "red" }} /> by Mridul | © 2025 All rights reserved
+      </p>
 
         </div>
     )
