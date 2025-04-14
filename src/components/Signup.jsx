@@ -7,7 +7,7 @@ function Signup(){
         <div className="signup">
             <div className="container">
                 <div className="left">
-                    <img src="./public/images/trade.png"/>
+                    <img src="./images/trade.png"/>
 
                 </div>
 
