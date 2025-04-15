@@ -1,12 +1,11 @@
 
-
 .login-only {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* background-color: #f6f9ff; light background */
   background: linear-gradient(145deg, #f0fdf4, #e6f4ec); 
+  /* background: red; */
   font-family: 'Inter', sans-serif;
 }
 
