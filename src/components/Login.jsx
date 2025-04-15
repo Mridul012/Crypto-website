@@ -1,6 +1,6 @@
 import React from 'react';
-import googleIcon from '../../public/images/google.svg'; // Adjust path if needed
-import appleIcon from '../../public/images/apple.svg';   // Adjust path if needed
+import googleIcon from '../../public/images/google.svg'; 
+import appleIcon from '../../public/images/apple.svg';   
 
 function Login() {
   const styles = {
@@ -141,7 +141,7 @@ function Login() {
 
         <div style={styles.seperator}>
           <span style={styles.seperatorSpan}>or</span>
-          {/* No native way to do ::before in inline styles — would need to simulate with extra div if needed */}
+        
         </div>
 
         <form action="#" style={styles.loginForm}>
