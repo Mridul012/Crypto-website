@@ -7,7 +7,7 @@ function UsersTrust() {
   const [userCount, setUserCount] = useState(base);
 
   useEffect(() => {
-    const randomVariation = Math.floor(Math.random() * 100) - 50;
+    const randomVariation = Math.floor(Math.random() * 100)-50;
     setUserCount(base + randomVariation);
   }, []);
 

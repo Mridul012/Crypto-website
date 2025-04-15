@@ -4,7 +4,7 @@ import './Signup.css'
 
 function Signup(){
     return (
-        <div className="signup">
+        <div className="signup" id="signup">
             <div className="container">
                 <div className="left">
                     <img src="./images/trade.png"/>

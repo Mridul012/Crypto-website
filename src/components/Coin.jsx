@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import "./Coin.css";
 import { FiArrowUpRight, FiArrowDown } from "react-icons/fi";
 import axios from 'axios';
+import {useNavigate} from 'react-router-dom';
 
 function Coin() {
+    const navigate = useNavigate()
     const [data, setData] = useState(null);
     const url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&order=market_cap_desc&per_page=6&page=1&sparkline=false";
 
@@ -26,7 +28,7 @@ function Coin() {
                 <div className="left">
                     <h2>Explore Top Crypto's like Bitcoin, Ethereum, and Dogecoin</h2>
                     <p>See all available assets: Cryptocurrencies and NFT's</p>
-                    <button className="btn">See more Coins</button>
+                    <button className="btn" onClick={() => navigate('/login')}>See more Coins</button>
                 </div>
             </div>
             

@@ -5,6 +5,7 @@ import { FaHeart } from "react-icons/fa6";
 
 function Footer(){
     return (
+        <footer id="footer">
         <div className="footer">
             <div className="container">
                 <div className="col col-1">
@@ -70,6 +71,7 @@ function Footer(){
       </p>
 
         </div>
+        </footer>
     )
 
 }
